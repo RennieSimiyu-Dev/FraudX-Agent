@@ -4,7 +4,7 @@
 
 **Project Name:** FraudX Agent  
 **Version:** 1.0.0  
-**Developer:** Vision Child School Team  
+**Developer:** Sirena Team  
 **Date:** May 2, 2026  
 **Technology Stack:** Python, FastAPI, Streamlit, JWT Authentication
 
