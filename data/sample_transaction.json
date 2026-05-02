@@ -1,0 +1,98 @@
+{
+  "low_risk_transaction": {
+    "transaction": {
+      "amount": 45.00,
+      "country": "KE",
+      "device": "device_1",
+      "merchant": "grocery"
+    },
+    "profile": {
+      "avg_amount": 40,
+      "countries": ["KE"],
+      "devices": ["device_1"],
+      "merchants": ["grocery", "fuel"]
+    },
+    "expected_score": 0,
+    "expected_action": "APPROVE"
+  },
+  "medium_risk_transaction": {
+    "transaction": {
+      "amount": 150.00,
+      "country": "KE",
+      "device": "device_1",
+      "merchant": "electronics"
+    },
+    "profile": {
+      "avg_amount": 40,
+      "countries": ["KE"],
+      "devices": ["device_1"],
+      "merchants": ["grocery", "fuel"]
+    },
+    "expected_score": 35,
+    "expected_action": "VERIFY_USER"
+  },
+  "high_risk_transaction": {
+    "transaction": {
+      "amount": 500.00,
+      "country": "US",
+      "device": "device_999",
+      "merchant": "unknown_merchant"
+    },
+    "profile": {
+      "avg_amount": 40,
+      "countries": ["KE"],
+      "devices": ["device_1"],
+      "merchants": ["grocery", "fuel"]
+    },
+    "expected_score": 100,
+    "expected_action": "ANALYST_QUEUE"
+  },
+  "new_country_transaction": {
+    "transaction": {
+      "amount": 50.00,
+      "country": "GB",
+      "device": "device_1",
+      "merchant": "grocery"
+    },
+    "profile": {
+      "avg_amount": 40,
+      "countries": ["KE"],
+      "devices": ["device_1"],
+      "merchants": ["grocery", "fuel"]
+    },
+    "expected_score": 25,
+    "expected_action": "APPROVE"
+  },
+  "unknown_device_transaction": {
+    "transaction": {
+      "amount": 50.00,
+      "country": "KE",
+      "device": "device_999",
+      "merchant": "grocery"
+    },
+    "profile": {
+      "avg_amount": 40,
+      "countries": ["KE"],
+      "devices": ["device_1"],
+      "merchants": ["grocery", "fuel"]
+    },
+    "expected_score": 20,
+    "expected_action": "APPROVE"
+  },
+  "high_amount_transaction": {
+    "transaction": {
+      "amount": 200.00,
+      "country": "KE",
+      "device": "device_1",
+      "merchant": "grocery"
+    },
+    "profile": {
+      "avg_amount": 40,
+      "countries": ["KE"],
+      "devices": ["device_1"],
+      "merchants": ["grocery", "fuel"]
+    },
+    "expected_score": 30,
+    "expected_action": "VERIFY_USER"
+  }
+}

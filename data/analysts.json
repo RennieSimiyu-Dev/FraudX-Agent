@@ -1,0 +1,11 @@
+{
+  "demo_analyst": {
+    "analyst_id": "demo_analyst",
+    "hashed_password": "$2b$12$6fSEoGirgs2qo62NY2MKDOwcuA5vqMn5NtvGEIV8kTQ4w6lKC6EQe",
+    "full_name": "Demo Analyst",
+    "email": "demo@fraudx.local",
+    "review_desk": "Fraud Operations",
+    "created_at": "2026-05-02T10:23:48.077275",
+    "is_active": true
+  }
+}
