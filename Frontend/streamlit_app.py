@@ -746,10 +746,10 @@ def render_analyst_landing():
         st.markdown(
             """
             <div class="landing-hero">
-                <div class="brand-pill"><span class="brand-mark"></span> FRAUDX AGENT Analyst Banking Console</div>
-                <h1 class="landing-title">Secure fraud decisions before money moves.</h1>
+                <div class="brand-pill"><span class="brand-mark"></span> Secure fraud decisions before money moves.</div>
+                <h1 class="landing-title">FRAUDX   AGENT</h1>
                 <p class="landing-copy">
-                    A calm, bank-grade authentication for analysts who review suspicious payments,
+                    A bank-grade authentication for analysts who review suspicious payments,
                     verify customers, and keep high-risk transactions from slipping through.
                 </p>
                 <div class="trust-row">
