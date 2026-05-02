@@ -1,4 +1,4 @@
-# 🛡️ FraudX Agent - Complete Project Documentation
+#  FraudX Agent - Complete Project Documentation
 
 ## Real-Time Fraud Detection System for Credit Card Security
 
@@ -1216,7 +1216,7 @@ The system successfully addresses the problem of inconsistent behavior patterns 
 
 **Project Version:** 1.0.0  
 **Last Updated:** May 2, 2026  
-**Developed By:** Vision Child School Team  
+**Developed By:** Sirena Team  
 **Technology Partner:** Bob AI Assistant
 
 ---
