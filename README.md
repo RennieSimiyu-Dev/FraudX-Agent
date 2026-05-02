@@ -1,8 +1,8 @@
-# FraudX Agent 🛡️
+# FraudX Agent 
 
 A real-time fraud detection system that analyzes transactions and identifies suspicious activities using rule-based risk scoring.
 
-## 🌟 Features
+Features
 
 - **Real-time Fraud Detection**: Analyzes transactions instantly based on multiple risk factors
 - **Risk Scoring**: Calculates fraud risk scores (0-100) with detailed reasoning
@@ -12,7 +12,7 @@ A real-time fraud detection system that analyzes transactions and identifies sus
 - **RESTful API**: FastAPI backend with comprehensive endpoints
 - **Interactive UI**: Streamlit-based frontend for monitoring and testing
 
-## 📋 Risk Factors
+Risk Factors
 
 The system evaluates transactions based on:
 
@@ -27,7 +27,7 @@ The system evaluates transactions based on:
 
 4. **Merchant Verification**: Flags new merchants (+15 points)
 
-## 🎯 Decision Logic
+Decision Logic
 
 | Risk Score | Action | Description |
 |------------|--------|-------------|
@@ -35,11 +35,11 @@ The system evaluates transactions based on:
 | 30-69 | **VERIFY_USER** | Medium risk - Request user confirmation |
 | 70-100 | **ANALYST_QUEUE** | High risk - Manual review required |
 
-## 🚀 Quick Start
+Quick Start
 
-### Prerequisites
+Prerequisites
 
-- Python 3.10+ (✅ Python 3.14.4 detected)
+- Python 3.10+ (Python 3.14.4 detected)
 - pip
 
 ### One-Click Deployment (Windows)
